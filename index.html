@@ -28,30 +28,51 @@
    <div class="upper-content border">
     <div class="sidebar border">
 
-        <figure class="sidebar-logo">
-            <a href="#"><img src="img/logo-small.svg" alt="logo small"></a>
-        </figure>
+        <div class="sidebar-logo">
+            <div>
+                <a href="#"><img class="logo-small" src="img/logo-small.svg" alt="logo small"></a>
+            </div>
+            <div><a href="#"><img class="logo-big" src="img/logo.svg" alt="logo big"></a></div>
+        </div>
 
         <div class="sidebar-actions">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-bars fa-rotate-90"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i><span>Cerca</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-bars fa-rotate-90"></i><span>La tua libreria</span></a></li>
             </ul>
         </div>
 
-        <div class="sidebar-playlist"></div>
+        <div class="sidebar-playlist">
+            <div class="sidebar-playlist-container">
+                <ul>
+                    <li><h4>PLAYLIST</h4></li>
+                    <li><a href="#"><i class="fa-solid fa-square-plus"></i> Crea Playlist</a></li>
+                </ul>
+                <ul class="saved-playlist">
+                    <li><a>Nome Playlist</a></li>
+                    <li><a>Nome Playlist</a></li>
+                    <li><a>Nome Playlist</a></li>
+                    <li><a>Nome Playlist</a></li>
+                    <li><a>Nome Playlist</a></li>
+                    <li><a>Nome Playlist</a></li>
+                    <li><a>Nome Playlist</a></li>
+                </ul>
+            </div>
+        </div>
         <div class="sidebar-user">
             <ul>
-                <li><a href="#"><i class="fa-regular fa-circle-down"></i></a></li>
+                <li><a href="#"><i class="fa-regular fa-circle-down"></i><span>Installa app</span></a></li>
             </ul>
             <figure>
-                <a href="#"><img src="img/profile.svg" alt="user profile"></a>
+                <a href="#"><img src="img/profile.svg" alt="user profile"><span>John Doe</span></a>
             </figure>
         </div>
     </div>
     <main class="border">
-        <header class="border"></header>
+        <header class="border">
+            <a href="#">effettua l'upgrade</a>
+        </header>
         <div class="main-content border">
         </div>
     </main>
