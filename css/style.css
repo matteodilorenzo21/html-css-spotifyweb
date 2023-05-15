@@ -32,8 +32,7 @@ body {
 }
 
 img {
-    width: 100%;
-    display: block;
+    max-width: 100%;
 }
 
 .border {
@@ -52,6 +51,69 @@ img {
     width: 50px;
     background-color: var(--black);
     flex: 0 0 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar i {
+    font-size: 20px;
+    color: #c5c5c5;
+}
+
+.sidebar i:hover {
+    font-size: 21px;
+    color: var(--white);
+}
+
+/*SIDEBAR-LOGO*/
+.sidebar-logo {
+    height: 10%;
+}
+
+.sidebar-logo img {
+    height: 30px;
+    width: 30px;
+}
+
+/*SIDEBAR-ACTIONS*/
+.sidebar-actions {
+    height: 20%;
+}
+
+.sidebar-actions li {
+    padding-bottom: 10px;
+}
+
+/*SIDEBAR-PLAYLIST*/
+.sidebar-playlist {
+    height: 60%;
+}
+
+/*SIDEBAR-USER*/
+.sidebar-user {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-user li {
+    padding-bottom: 10px;
+}
+
+.sidebar-user > figure {
+    border: 1px solid #c5c5c5;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.sidebar-user figure:hover {
+    border-color: var(--white);
 }
 
 /***MAIN***/
@@ -78,4 +140,10 @@ header {
 footer {
     height: 80px;
     background-color: var(--footer-bg);
+}
+
+@media screen and (min-width: 768px) {
+    .sidebar {
+        flex-basis: 200px;
+    }
 }
