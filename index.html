@@ -25,10 +25,10 @@
 </head>
 
 <body>
-   <div class="upper-content border">
-    <div class="sidebar border">
+   <div class="upper-content">
+    <div class="sidebar">
 
-        <div class="sidebar-logo">
+        <div class="sidebar-logo">  
             <div>
                 <a href="#"><img class="logo-small" src="img/logo-small.svg" alt="logo small"></a>
             </div>
@@ -65,19 +65,149 @@
                 <li><a href="#"><i class="fa-regular fa-circle-down"></i><span>Installa app</span></a></li>
             </ul>
             <figure>
-                <a href="#"><img src="img/profile.svg" alt="user profile"><span>John Doe</span></a>
+                <a href="#"><img src="img/profile.svg" alt="user profile"><span>  John Doe</span>
             </figure>
         </div>
     </div>
-    <main class="border">
-        <header class="border">
-            <a href="#">effettua l'upgrade</a>
+    <main>
+        <header>
+            <a id="upgrade-btn" href="#">effettua l'upgrade</a>
         </header>
-        <div class="main-content border">
+        <div class="main-content">
+            <div class="main-content-actions">
+                <ul>
+                    <li><a href="#">in evidenza</a></li>
+                    <li><a href="#">podcast</a></li>
+                    <li><a href="#">classifiche</a></li>
+                    <li><a href="#">generi e mood</a></li>
+                    <li><a href="#">nuove uscite</a></li>
+                    <li><a href="#">scopri</a></li>
+                </ul>
+            </div>
+            <h2>Recently played</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/metal_lifting.jpg" alt="metal">
+                        </div>
+                        <div class="card-title">
+                            <h4>Heavy Metal</h4>
+                        </div>
+                        <div class="card-subtitle">
+                            <p>subtitle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/stranger.jpeg" alt="stranger">
+                        </div>
+                        <div class="card-title">
+                            <h4>Stranger Things vol.1 (a Netflix Original Series Soundtrack)</h4>
+                        </div>
+                        <div class="card-subtitle">
+                            <p>Kyle Dixon e Michael Stein</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/aquietplace.jpeg" alt="a quiet place">
+                        </div>
+                        <div class="card-title">
+                            <h4>A quiet place</h4>
+                        </div>
+                        <div class="card-subtitle">
+                            <p>Subtitle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/split.jpeg" alt="split">
+                        </div>
+                        <div class="card-title">
+                            <h4>Split</h4>
+                        </div>
+                        <div class="card-subtitle">
+                            <p>subtitle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/cure.jpeg" alt="a cure for wellness">
+                        </div>
+                        <div class="card-title">
+                            <h4>A cure for wellness</h4>
+                        </div>
+                        <div class="card-subtitle">
+                            <p>subtitle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="img/sinister.jpeg" alt="sinister">
+                        </div>
+                        <div class="card-title">
+                            <h4>Sinister</h4>
+                        </div>
+                        <div class="card-subtitle">
+                            <p>subtitle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
    </div>
-   <footer class="border"></footer>
+   <footer>
+    <div class="navbar">
+        <div class="nav-current-song">
+            <div class="current-song-img">
+                <img src="img/sinister.jpeg" alt="Sinister">
+            </div>
+            <div class="current-song-txt">
+                <h5>Sinister</h5>
+                <p>Brano</p>
+                <p>Nome</p>
+            </div>
+            <div class="current-song-actions">
+                <ul>
+                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-folder"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-player-actions">
+            <div class="player-menu-top">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-share"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-forward-step fa-flip-horizontal"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-circle-play"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-forward-step"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-rotate-right"></i></a></li>
+                </ul>
+            </div>
+            <div class="player-menu-bottom">
+                <div class="time-actual">0:25</div>
+                <div class="player-progressbar">
+                    <div class="progressbar-actual"></div>
+                    <div class="progressbar-full"></div>
+                </div>
+                <div class="time-full">4:35</div>
+            </div>
+        </div>
+        <div class="nav-remote-controls"></div>
+    </div>
+   </footer>
 </body>
 
 </html>
